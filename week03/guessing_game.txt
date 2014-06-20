@@ -1,0 +1,7 @@
+GUESS THE NUMBER
+
+write a command line application that will:
+* pick a random number (between 1 and 10)
+* ask the player to guess the number
+* give them three chances to guess the number 
+* for each wrong guess, tell the player if they are 'too high' or 'too low'

@@ -1,0 +1,17 @@
+<h1>Hello</h1>
+
+<% my_array = ["Brian", "David", "Trish", "Pascal"] %>
+
+<ul>
+<% for person in my_array %>
+	<li><strong><%= "Hello #{person}!" %><strong></li>
+<% end %>
+</ul>
+
+<hr />
+
+<ul>
+<% my_array.each do |person| %>
+	<li><strong><%= person %><strong></li>
+<% end %>
+</ul>
